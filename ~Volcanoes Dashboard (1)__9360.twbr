@@ -1,0 +1,3530 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CascadingFilters />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='significantvolcanoeruptions' inline='true' name='federated.0l3jnp10xcrj0g18af3hv1of8gd9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='significantvolcanoeruptions' name='excel-direct.063qbva1jyossf15sn86d086v416'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/Nabeel/Dropbox/Nabeel Omar-117597/2- Data Analytics and Exploration/Task 9/significantvolcanoeruptions.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.063qbva1jyossf15sn86d086v416' name='volerup' table='[volerup$]' type='table'>
+          <columns gridOrigin='A1:AJ660:no:A1:AJ660:1' lost='0' outcome='1' processed='6688'>
+            <column datatype='real' date-parse-format='yyyy' name='Year' ordinal='0' />
+            <column datatype='integer' name='Month' ordinal='1' />
+            <column datatype='integer' name='Day' ordinal='2' />
+            <column datatype='string' name='Associated Tsunami?' ordinal='3' />
+            <column datatype='string' name='Associated Earthquake?' ordinal='4' />
+            <column datatype='string' name='Name' ordinal='5' />
+            <column datatype='string' name='Location' ordinal='6' />
+            <column datatype='string' name='Country' ordinal='7' />
+            <column datatype='real' name='Latitude' ordinal='8' />
+            <column datatype='real' name='Longitude' ordinal='9' />
+            <column datatype='integer' name='Elevation' ordinal='10' />
+            <column datatype='string' name='Type' ordinal='11' />
+            <column datatype='string' name='Status' ordinal='12' />
+            <column datatype='string' name='Time' ordinal='13' />
+            <column datatype='integer' name='Volcano Explosivity Index (VEI)' ordinal='14' />
+            <column datatype='string' name='Agent' ordinal='15' />
+            <column datatype='integer' name='DEATHS' ordinal='16' />
+            <column datatype='integer' name='DEATHS_DESCRIPTION' ordinal='17' />
+            <column datatype='integer' name='MISSING' ordinal='18' />
+            <column datatype='integer' name='MISSING_DESCRIPTION' ordinal='19' />
+            <column datatype='integer' name='INJURIES' ordinal='20' />
+            <column datatype='integer' name='INJURIES_DESCRIPTION' ordinal='21' />
+            <column datatype='real' name='DAMAGE_MILLIONS_DOLLARS' ordinal='22' />
+            <column datatype='integer' name='DAMAGE_DESCRIPTION' ordinal='23' />
+            <column datatype='integer' name='HOUSES_DESTROYED' ordinal='24' />
+            <column datatype='integer' name='HOUSES_DESTROYED_DESCRIPTION' ordinal='25' />
+            <column datatype='integer' name='TOTAL_DEATHS' ordinal='26' />
+            <column datatype='integer' name='TOTAL_DEATHS_DESCRIPTION' ordinal='27' />
+            <column datatype='integer' name='TOTAL_MISSING' ordinal='28' />
+            <column datatype='integer' name='TOTAL_MISSING_DESCRIPTION' ordinal='29' />
+            <column datatype='integer' name='TOTAL_INJURIES' ordinal='30' />
+            <column datatype='integer' name='TOTAL_INJURIES_DESCRIPTION' ordinal='31' />
+            <column datatype='real' name='TOTAL_DAMAGE_MILLIONS_DOLLARS' ordinal='32' />
+            <column datatype='integer' name='TOTAL_DAMAGE_DESCRIPTION' ordinal='33' />
+            <column datatype='integer' name='TOTAL_HOUSES_DESTROYED' ordinal='34' />
+            <column datatype='integer' name='TOTAL_HOUSES_DESTROYED_DESCRIPTION' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.063qbva1jyossf15sn86d086v416' name='volerup' table='[volerup$]' type='table'>
+          <columns gridOrigin='A1:AJ660:no:A1:AJ660:1' lost='0' outcome='1' processed='6688'>
+            <column datatype='real' date-parse-format='yyyy' name='Year' ordinal='0' />
+            <column datatype='integer' name='Month' ordinal='1' />
+            <column datatype='integer' name='Day' ordinal='2' />
+            <column datatype='string' name='Associated Tsunami?' ordinal='3' />
+            <column datatype='string' name='Associated Earthquake?' ordinal='4' />
+            <column datatype='string' name='Name' ordinal='5' />
+            <column datatype='string' name='Location' ordinal='6' />
+            <column datatype='string' name='Country' ordinal='7' />
+            <column datatype='real' name='Latitude' ordinal='8' />
+            <column datatype='real' name='Longitude' ordinal='9' />
+            <column datatype='integer' name='Elevation' ordinal='10' />
+            <column datatype='string' name='Type' ordinal='11' />
+            <column datatype='string' name='Status' ordinal='12' />
+            <column datatype='string' name='Time' ordinal='13' />
+            <column datatype='integer' name='Volcano Explosivity Index (VEI)' ordinal='14' />
+            <column datatype='string' name='Agent' ordinal='15' />
+            <column datatype='integer' name='DEATHS' ordinal='16' />
+            <column datatype='integer' name='DEATHS_DESCRIPTION' ordinal='17' />
+            <column datatype='integer' name='MISSING' ordinal='18' />
+            <column datatype='integer' name='MISSING_DESCRIPTION' ordinal='19' />
+            <column datatype='integer' name='INJURIES' ordinal='20' />
+            <column datatype='integer' name='INJURIES_DESCRIPTION' ordinal='21' />
+            <column datatype='real' name='DAMAGE_MILLIONS_DOLLARS' ordinal='22' />
+            <column datatype='integer' name='DAMAGE_DESCRIPTION' ordinal='23' />
+            <column datatype='integer' name='HOUSES_DESTROYED' ordinal='24' />
+            <column datatype='integer' name='HOUSES_DESTROYED_DESCRIPTION' ordinal='25' />
+            <column datatype='integer' name='TOTAL_DEATHS' ordinal='26' />
+            <column datatype='integer' name='TOTAL_DEATHS_DESCRIPTION' ordinal='27' />
+            <column datatype='integer' name='TOTAL_MISSING' ordinal='28' />
+            <column datatype='integer' name='TOTAL_MISSING_DESCRIPTION' ordinal='29' />
+            <column datatype='integer' name='TOTAL_INJURIES' ordinal='30' />
+            <column datatype='integer' name='TOTAL_INJURIES_DESCRIPTION' ordinal='31' />
+            <column datatype='real' name='TOTAL_DAMAGE_MILLIONS_DOLLARS' ordinal='32' />
+            <column datatype='integer' name='TOTAL_DAMAGE_DESCRIPTION' ordinal='33' />
+            <column datatype='integer' name='TOTAL_HOUSES_DESTROYED' ordinal='34' />
+            <column datatype='integer' name='TOTAL_HOUSES_DESTROYED_DESCRIPTION' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AJ660:no:A1:AJ660:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>6688</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Associated Tsunami?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Associated Tsunami?]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Associated Tsunami?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Associated Earthquake?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Associated Earthquake?]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Associated Earthquake?</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Elevation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Elevation]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Elevation</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volcano Explosivity Index (VEI)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Volcano Explosivity Index (VEI)]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Volcano Explosivity Index (VEI)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Agent]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>Agent</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RZA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEATHS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DEATHS]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>DEATHS</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEATHS_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DEATHS_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>DEATHS_DESCRIPTION</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MISSING</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MISSING]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>MISSING</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MISSING_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MISSING_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>MISSING_DESCRIPTION</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INJURIES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INJURIES]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>INJURIES</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INJURIES_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INJURIES_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>INJURIES_DESCRIPTION</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAMAGE_MILLIONS_DOLLARS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DAMAGE_MILLIONS_DOLLARS]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>DAMAGE_MILLIONS_DOLLARS</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAMAGE_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DAMAGE_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>DAMAGE_DESCRIPTION</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HOUSES_DESTROYED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HOUSES_DESTROYED]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>HOUSES_DESTROYED</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HOUSES_DESTROYED_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HOUSES_DESTROYED_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>HOUSES_DESTROYED_DESCRIPTION</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_DEATHS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_DEATHS]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_DEATHS</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_DEATHS_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_DEATHS_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_DEATHS_DESCRIPTION</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_MISSING</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_MISSING]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_MISSING</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_MISSING_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_MISSING_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_MISSING_DESCRIPTION</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_INJURIES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_INJURIES]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_INJURIES</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_INJURIES_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_INJURIES_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_INJURIES_DESCRIPTION</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_DAMAGE_MILLIONS_DOLLARS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_DAMAGE_MILLIONS_DOLLARS]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_DAMAGE_MILLIONS_DOLLARS</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_DAMAGE_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_DAMAGE_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_DAMAGE_DESCRIPTION</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_HOUSES_DESTROYED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_HOUSES_DESTROYED]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_HOUSES_DESTROYED</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_HOUSES_DESTROYED_DESCRIPTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL_HOUSES_DESTROYED_DESCRIPTION]</local-name>
+            <parent-name>[volerup]</parent-name>
+            <remote-alias>TOTAL_HOUSES_DESTROYED_DESCRIPTION</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='No of Volcanoes' datatype='integer' name='[Calculation_652810901010157569]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Country])' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='Damage Description' datatype='integer' name='[DAMAGE_DESCRIPTION]' role='measure' type='quantitative' />
+      <column caption='Damage Millions Dollars' datatype='real' name='[DAMAGE_MILLIONS_DOLLARS]' role='measure' type='quantitative' />
+      <column caption='Deaths' datatype='integer' name='[DEATHS]' role='measure' type='quantitative' />
+      <column caption='Deaths Description' datatype='integer' name='[DEATHS_DESCRIPTION]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Day]' role='dimension' type='quantitative' />
+      <column aggregation='None' caption='Deaths (bin) (1)' datatype='integer' name='[Deaths (bin) 1]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='3' formula='[DEATHS]' peg='0' size='1775' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Deaths (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='3' formula='[DEATHS]' peg='0' size='1775' />
+      </column>
+      <column caption='Houses Destroyed' datatype='integer' name='[HOUSES_DESTROYED]' role='measure' type='quantitative' />
+      <column caption='Houses Destroyed Description' datatype='integer' name='[HOUSES_DESTROYED_DESCRIPTION]' role='measure' type='quantitative' />
+      <column caption='Injuries' datatype='integer' name='[INJURIES]' role='measure' type='quantitative' />
+      <column caption='Injuries Description' datatype='integer' name='[INJURIES_DESCRIPTION]' role='measure' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Missing' datatype='integer' name='[MISSING]' role='measure' type='quantitative' />
+      <column caption='Missing Description' datatype='integer' name='[MISSING_DESCRIPTION]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <column caption='Total Damage Description' datatype='integer' name='[TOTAL_DAMAGE_DESCRIPTION]' role='measure' type='quantitative' />
+      <column caption='Total Damage Millions Dollars' datatype='real' name='[TOTAL_DAMAGE_MILLIONS_DOLLARS]' role='measure' type='quantitative' />
+      <column caption='Total Deaths' datatype='integer' name='[TOTAL_DEATHS]' role='measure' type='quantitative' />
+      <column caption='Total Deaths Description' datatype='integer' name='[TOTAL_DEATHS_DESCRIPTION]' role='measure' type='quantitative' />
+      <column caption='Total Houses Destroyed' datatype='integer' name='[TOTAL_HOUSES_DESTROYED]' role='measure' type='quantitative' />
+      <column caption='Total Houses Destroyed Description' datatype='integer' name='[TOTAL_HOUSES_DESTROYED_DESCRIPTION]' role='measure' type='quantitative' />
+      <column caption='Total Injuries' datatype='integer' name='[TOTAL_INJURIES]' role='measure' type='quantitative' />
+      <column caption='Total Injuries Description' datatype='integer' name='[TOTAL_INJURIES_DESCRIPTION]' role='measure' type='quantitative' />
+      <column caption='Total Missing' datatype='integer' name='[TOTAL_MISSING]' role='measure' type='quantitative' />
+      <column caption='Total Missing Description' datatype='integer' name='[TOTAL_MISSING_DESCRIPTION]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Volcano Explosivity Index (VEI)]' role='measure' type='quantitative' />
+      <column caption='Year Dimension' datatype='real' name='[Year (copy)_652810901013102594]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='[Year]' />
+      </column>
+      <column datatype='real' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='volerup' datatype='table' name='[__tableau_internal_object_id__].[volerup_FBFD8B5D11384B28BFE1E68AB444B3D7]' role='measure' type='quantitative' />
+      <column-instance column='[Country]' derivation='Attribute' name='[attr:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[DEATHS]' derivation='Attribute' name='[attr:DEATHS:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[DEATHS]' derivation='Attribute' name='[attr:DEATHS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Name]' derivation='Attribute' name='[attr:Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='Attribute' name='[attr:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[DEATHS]' derivation='Avg' name='[avg:DEATHS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Month]' derivation='Count' name='[cnt:Month:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='Count' name='[cnt:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='CountD' name='[ctd:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Country]' derivation='Max' name='[max:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[DEATHS]' derivation='Max' name='[max:DEATHS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='Max' name='[max:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[DEATHS]' derivation='None' name='[none:DEATHS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='None' name='[none:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[DEATHS]' derivation='Sum' name='[sum:DEATHS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Month]' derivation='Sum' name='[sum:Month:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='Sum' name='[sum:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Country)' hidden='true' name='[Action (Country)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Country,Type)' hidden='true' name='[Action (Country,Type)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country]' />
+          <groupfilter function='level-members' level='[Type]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Country,Type,Year)' hidden='true' name='[Action (Country,Type,Year)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country]' />
+          <groupfilter function='level-members' level='[Type]' />
+          <groupfilter function='level-members' level='[none:Year:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Name,Type)' hidden='true' name='[Action (Name,Type)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Name]' />
+          <groupfilter function='level-members' level='[Type]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Inclusions (Country,Type,Year)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Country:nk]' />
+          <groupfilter function='level-members' level='[none:Type:nk]' />
+          <groupfilter function='level-members' level='[none:Year:qk]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Country, Type'>
+          <field>[Country]</field>
+          <field>[Name]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[attr:Country:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Congo, DRC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Pacific Ocean&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Antarctica&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;St. Vincent &amp; the Grenadines&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Montserrat&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Trinidad&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Guadeloupe&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Reunion&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Solomon Is.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;St. Kitts &amp; Nevis&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Martinique&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Samoa&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tonga&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[attr:DEATHS:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[avg:DEATHS:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[cnt:Month:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[max:DEATHS:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[attr:Volcano Explosivity Index (VEI):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[cnt:Volcano Explosivity Index (VEI):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[ctd:Volcano Explosivity Index (VEI):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[max:Volcano Explosivity Index (VEI):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:Month:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:Volcano Explosivity Index (VEI):qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:DEATHS:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>35</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>80</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>325</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>1400</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>28000</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>56</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>149</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>953</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>3500</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>31</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>68</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>215</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>1266</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5405</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>39</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>114</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>355</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>1680</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>36</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>98</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>326</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>1491</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>30000</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>32</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>72</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>220</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>1300</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>9350</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>%many-values%</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>54</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>135</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>636</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>2957</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>57</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>153</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>1000</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>4000</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>21</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>49</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>125</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>461</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>2806</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>33</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>74</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>221</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>1335</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>10000</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>40</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>117</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>372</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>1700</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>43</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>119</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>400</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>1879</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>50</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>126</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>507</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>2942</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>24</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>55</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>146</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>800</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>3000</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>37</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>100</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>340</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>1500</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>34</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>75</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>324</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>1369</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>23080</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>28</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>60</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>180</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1028</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>4011</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>48</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>120</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>450</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>2000</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>38</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>106</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>350</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>1532</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>64</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>200</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>1200</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>5110</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[max:Country:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Congo, DRC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Pacific Ocean&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Antarctica&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;St. Vincent &amp; the Grenadines&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Montserrat&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Trinidad&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Guadeloupe&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Reunion&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Solomon Is.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;St. Kitts &amp; Nevis&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Martinique&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Samoa&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tonga&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Type:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Pyroclastic shield&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Caldera&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fissure vent&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Submarine volcano&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Shield volcano&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lava dome&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cinder cone&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Maar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tuff cone&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Stratovolcano&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pyroclastic cone&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Complex volcano&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Subglacial volcano&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Compound volcano&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:Name:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Augustine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Esjufjoll&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Iwo-Tori-shima&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kaba&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nyiragongo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;San Joaquin&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tori-shima&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Adatara&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Agung&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chichon, El&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hibok-Hibok&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Myojun Knoll&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Papandayan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Popocatepetl&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;St. Helens&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Aoga-shima&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Dama Ali&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Galunggung&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Huila&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lamington&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Niigata-Yake-yama&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Raoul Island&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sirung&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bam&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fournaise, Piton de la&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Karkar&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Lamongan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Oraefajokull&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Santa Maria&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Vestmannaeyjar&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Etna&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Karangetang [Api Siau]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Long Island&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Okataina&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;San Jorge&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tungurahua&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Arenal&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gamalama&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Niuafo&apos;ou&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sorikmarapi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Carran-Los Venados&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Grimsvotn&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kliuchevskoi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Merapi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Miyake-jima&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pico&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Soufriere Hills&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Awu&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Chokai&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hualalai&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kuchinoerabu-jima&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nabro&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Purace&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Raung&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Stromboli&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bulusan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kilauea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Makian&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Yasur&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Asama&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dona Juana&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Iliwerung&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ilopango&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Novarupta&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ruiz&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tambora&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Teon&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Banda Api&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Fuego&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Karthala&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lewotobi&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Manam&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Oshima&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Santorini&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Vesuvius&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bandai&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Furnas&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Katla&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lokon-Empung&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pacaya&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Villarrica&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Campi Flegrei&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kirishima&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Marapi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Michoacan-Guanajuato&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Pelee&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Zao&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chaiten&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hekla&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Komaga-take&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mombacho&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Paluweh&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Pinatubo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Soufriere St. Vincent&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Azul, Cerro&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Eyjafjallajokull&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kelut&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lonquimay&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Oku Volc Field&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;San Salvador&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Unzen&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Aso&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dubbi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Irazu&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iya&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Llaima&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nyamuragira&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sakura-jima&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tengger Caldera&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tokachi&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ambalatungan Group&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Batur&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cleveland&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Huaynaputina&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kusatsu-Shirane&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nasu&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Rabaul&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Semeru&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Taal&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Galeras&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mahawu&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mayon&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;White Island&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Azuma&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Fayal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Krakatau&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;On-take&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sangay&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Usu&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ambrym&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cotopaxi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Dieng Volc Complex&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hudson, Cerro&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;La Palma&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Negro, Cerro&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Raikoke&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sinabung&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tair, Jebel at&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Name:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Augustine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Esjufjoll&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Iwo-Tori-shima&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kaba&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nyiragongo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;San Joaquin&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tori-shima&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Adatara&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Agung&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chichon, El&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hibok-Hibok&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Myojun Knoll&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Papandayan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Popocatepetl&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;St. Helens&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Aoga-shima&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Dama Ali&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Galunggung&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Huila&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lamington&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Niigata-Yake-yama&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Raoul Island&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sirung&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bam&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fournaise, Piton de la&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Karkar&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Lamongan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Oraefajokull&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Santa Maria&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Vestmannaeyjar&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Etna&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Karangetang [Api Siau]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Long Island&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Okataina&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;San Jorge&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tungurahua&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Arenal&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gamalama&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Niuafo&apos;ou&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sorikmarapi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Carran-Los Venados&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Grimsvotn&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kliuchevskoi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Merapi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Miyake-jima&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pico&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Soufriere Hills&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Awu&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Chokai&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hualalai&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kuchinoerabu-jima&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nabro&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Purace&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Raung&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Stromboli&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bulusan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kilauea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Makian&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Yasur&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Asama&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dona Juana&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Iliwerung&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ilopango&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Novarupta&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ruiz&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tambora&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Teon&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Banda Api&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Fuego&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Karthala&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lewotobi&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Manam&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Oshima&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Santorini&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Vesuvius&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bandai&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Furnas&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Katla&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lokon-Empung&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pacaya&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Villarrica&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Campi Flegrei&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kirishima&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Marapi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Michoacan-Guanajuato&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Pelee&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Zao&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chaiten&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hekla&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Komaga-take&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mombacho&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Paluweh&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Pinatubo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Soufriere St. Vincent&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Azul, Cerro&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Eyjafjallajokull&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kelut&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lonquimay&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Oku Volc Field&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;San Salvador&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Unzen&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Aso&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dubbi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Irazu&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iya&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Llaima&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nyamuragira&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sakura-jima&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tengger Caldera&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tokachi&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ambalatungan Group&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Batur&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cleveland&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Huaynaputina&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kusatsu-Shirane&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nasu&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Rabaul&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Semeru&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Taal&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Galeras&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mahawu&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mayon&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;White Island&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Azuma&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Fayal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Krakatau&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;On-take&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sangay&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Usu&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ambrym&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cotopaxi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Dieng Volc Complex&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hudson, Cerro&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;La Palma&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Negro, Cerro&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Raikoke&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sinabung&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tair, Jebel at&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Country:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Congo, DRC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Pacific Ocean&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Antarctica&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;St. Vincent &amp; the Grenadines&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Montserrat&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Trinidad&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Guadeloupe&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Reunion&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Solomon Is.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;St. Kitts &amp; Nevis&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Martinique&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Samoa&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tonga&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;South Africa&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='volerup' id='volerup_FBFD8B5D11384B28BFE1E68AB444B3D7'>
+            <properties context=''>
+              <relation connection='excel-direct.063qbva1jyossf15sn86d086v416' name='volerup' table='[volerup$]' type='table'>
+                <columns gridOrigin='A1:AJ660:no:A1:AJ660:1' lost='0' outcome='1' processed='6688'>
+                  <column datatype='real' date-parse-format='yyyy' name='Year' ordinal='0' />
+                  <column datatype='integer' name='Month' ordinal='1' />
+                  <column datatype='integer' name='Day' ordinal='2' />
+                  <column datatype='string' name='Associated Tsunami?' ordinal='3' />
+                  <column datatype='string' name='Associated Earthquake?' ordinal='4' />
+                  <column datatype='string' name='Name' ordinal='5' />
+                  <column datatype='string' name='Location' ordinal='6' />
+                  <column datatype='string' name='Country' ordinal='7' />
+                  <column datatype='real' name='Latitude' ordinal='8' />
+                  <column datatype='real' name='Longitude' ordinal='9' />
+                  <column datatype='integer' name='Elevation' ordinal='10' />
+                  <column datatype='string' name='Type' ordinal='11' />
+                  <column datatype='string' name='Status' ordinal='12' />
+                  <column datatype='string' name='Time' ordinal='13' />
+                  <column datatype='integer' name='Volcano Explosivity Index (VEI)' ordinal='14' />
+                  <column datatype='string' name='Agent' ordinal='15' />
+                  <column datatype='integer' name='DEATHS' ordinal='16' />
+                  <column datatype='integer' name='DEATHS_DESCRIPTION' ordinal='17' />
+                  <column datatype='integer' name='MISSING' ordinal='18' />
+                  <column datatype='integer' name='MISSING_DESCRIPTION' ordinal='19' />
+                  <column datatype='integer' name='INJURIES' ordinal='20' />
+                  <column datatype='integer' name='INJURIES_DESCRIPTION' ordinal='21' />
+                  <column datatype='real' name='DAMAGE_MILLIONS_DOLLARS' ordinal='22' />
+                  <column datatype='integer' name='DAMAGE_DESCRIPTION' ordinal='23' />
+                  <column datatype='integer' name='HOUSES_DESTROYED' ordinal='24' />
+                  <column datatype='integer' name='HOUSES_DESTROYED_DESCRIPTION' ordinal='25' />
+                  <column datatype='integer' name='TOTAL_DEATHS' ordinal='26' />
+                  <column datatype='integer' name='TOTAL_DEATHS_DESCRIPTION' ordinal='27' />
+                  <column datatype='integer' name='TOTAL_MISSING' ordinal='28' />
+                  <column datatype='integer' name='TOTAL_MISSING_DESCRIPTION' ordinal='29' />
+                  <column datatype='integer' name='TOTAL_INJURIES' ordinal='30' />
+                  <column datatype='integer' name='TOTAL_INJURIES_DESCRIPTION' ordinal='31' />
+                  <column datatype='real' name='TOTAL_DAMAGE_MILLIONS_DOLLARS' ordinal='32' />
+                  <column datatype='integer' name='TOTAL_DAMAGE_DESCRIPTION' ordinal='33' />
+                  <column datatype='integer' name='TOTAL_HOUSES_DESTROYED' ordinal='34' />
+                  <column datatype='integer' name='TOTAL_HOUSES_DESTROYED_DESCRIPTION' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.0l3jnp10xcrj0g18af3hv1of8gd9'>
+      <datasources>
+        <datasource caption='significantvolcanoeruptions' name='federated.0l3jnp10xcrj0g18af3hv1of8gd9' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0l3jnp10xcrj0g18af3hv1of8gd9'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+        <column caption='Deaths' datatype='integer' name='[DEATHS]' role='measure' type='quantitative' />
+        <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+        <column datatype='integer' name='[Volcano Explosivity Index (VEI)]' role='measure' type='quantitative' />
+        <column datatype='real' name='[Year]' role='dimension' type='quantitative' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+        <column-instance column='[DEATHS]' derivation='None' name='[none:DEATHS:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='None' name='[none:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]'>
+        <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='quantitative' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]' included-values='in-range'>
+        <min>1</min>
+        <max>30000</max>
+      </filter>
+      <filter class='categorical' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]'>
+        <groupfilter function='level-members' level='[none:Type:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='quantitative' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]' included-values='in-range-or-null'>
+        <min>0</min>
+        <max>7</max>
+      </filter>
+      <filter class='quantitative' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]' included-values='all' />
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_C0678EBA7C364A43A8D08D5AE34094C4]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Active Volcanoes Around World' type='sheet' worksheet='Global Active Archive of all Recorded Volanoes' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Active Volcanoes Around World' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Deaths per Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='9'>Deaths by Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='significantvolcanoeruptions' name='federated.0l3jnp10xcrj0g18af3hv1of8gd9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l3jnp10xcrj0g18af3hv1of8gd9'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column caption='Deaths' datatype='integer' name='[DEATHS]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volcano Explosivity Index (VEI)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DEATHS]' derivation='None' name='[none:DEATHS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='None' name='[none:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEATHS]' derivation='Sum' name='[sum:DEATHS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]'>
+            <groupfilter function='level-members' level='[none:Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' palette='red_gold_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]' palette='tableau-map-temperatur' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' />
+              <text column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.1644198894500732' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#898989' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]</rows>
+        <cols>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{6F417B09-8491-4D86-B16D-9361760FB04F}' />
+    </worksheet>
+    <worksheet name='Global Active Archive of all Recorded Volanoes'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' underline='true'>Global Active Archive of all Recorded Volanoes</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='significantvolcanoeruptions' name='federated.0l3jnp10xcrj0g18af3hv1of8gd9' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0l3jnp10xcrj0g18af3hv1of8gd9'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column caption='Deaths' datatype='integer' name='[DEATHS]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volcano Explosivity Index (VEI)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DEATHS]' derivation='None' name='[none:DEATHS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='None' name='[none:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEATHS]' derivation='Sum' name='[sum:DEATHS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Longitude (generated)]' included-values='non-null' />
+          <filter class='categorical' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]'>
+            <groupfilter function='level-members' level='[none:Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' included-values='all' />
+          <slices>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Latitude (generated)]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Longitude (generated)]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Longitude (generated)]' field-type='quantitative' max='32816459.946445476' min='-22133380.581579104' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Latitude (generated)]' field-type='quantitative' max='9981874.9748975188' min='-5768078.7324506734' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' value='Volcano Name (Desc.)'>
+              <formatted-text>
+                <run>Volcano Name (Desc.)</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4832596778869629' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Latitude (generated)]</rows>
+        <cols>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{66E70BE6-0245-4DA2-8FED-7A49D67073C6}' />
+    </worksheet>
+    <worksheet name='Volanco Occurance over Years in Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='10'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='significantvolcanoeruptions' name='federated.0l3jnp10xcrj0g18af3hv1of8gd9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l3jnp10xcrj0g18af3hv1of8gd9'>
+            <column caption='No of Volcanoes' datatype='integer' name='[Calculation_652810901010157569]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Country])' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column caption='Deaths' datatype='integer' name='[DEATHS]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volcano Explosivity Index (VEI)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='Count' name='[cnt:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DEATHS]' derivation='None' name='[none:DEATHS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='None' name='[none:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEATHS]' derivation='Sum' name='[sum:DEATHS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='Sum' name='[sum:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_652810901010157569]' derivation='User' name='[usr:Calculation_652810901010157569:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]'>
+            <groupfilter function='level-members' level='[none:Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>28000</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[cnt:Year:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' />
+              <text column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[usr:Calculation_652810901010157569:qk]' />
+              <lod column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]' />
+              <lod column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' />
+              <lod column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:Volcano Explosivity Index (VEI):qk]' />
+              <lod column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]</rows>
+        <cols>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{CF77E5DF-C057-4C6B-A37D-734875A45B21}' />
+    </worksheet>
+    <worksheet name='Volcano Names'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='9'>Volcano Names and Death Count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='significantvolcanoeruptions' name='federated.0l3jnp10xcrj0g18af3hv1of8gd9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0l3jnp10xcrj0g18af3hv1of8gd9'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column caption='Deaths' datatype='integer' name='[DEATHS]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Volcano Explosivity Index (VEI)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Name]' derivation='Attribute' name='[attr:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DEATHS]' derivation='None' name='[none:DEATHS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='None' name='[none:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEATHS]' derivation='Sum' name='[sum:DEATHS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='Sum' name='[sum:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Action (Country)]'>
+            <groupfilter function='level-members' level='[Country]' user:ui-action-filter='[Action1_C0678EBA7C364A43A8D08D5AE34094C4]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[attr:Name:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Adatara&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Agung&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Ambalatungan Group&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Ambrym&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Aoga-shima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Arenal&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Asama&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Aso&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Augustine&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Awu&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Azul, Cerro&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Azuma&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Bam&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Banda Api&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Bandai&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Batur&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Bulusan&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Campi Flegrei&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Carran-Los Venados&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Chaiten&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Chichon, El&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Chokai&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Cleveland&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Cotopaxi&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Dama Ali&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Dieng Volc Complex&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Dona Juana&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Dubbi&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Esjufjoll&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Etna&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Eyjafjallajokull&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Fayal&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Fournaise, Piton de la&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Fuego&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Furnas&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Galeras&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Galunggung&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Gamalama&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Grimsvotn&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Hekla&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Hibok-Hibok&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Hualalai&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Huaynaputina&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Hudson, Cerro&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Huila&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Iliwerung&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Ilopango&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Irazu&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Iwo-Tori-shima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Iya&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Kaba&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Karangetang [Api Siau]&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Karkar&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Karthala&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Katla&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Kelut&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Kilauea&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Kirishima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Kliuchevskoi&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Komaga-take&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Krakatau&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Kuchinoerabu-jima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Kusatsu-Shirane&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;La Palma&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Lamington&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Lamongan&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Lewotobi&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Llaima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Lokon-Empung&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Long Island&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Lonquimay&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Mahawu&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Makian&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Manam&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Marapi&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Mayon&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Merapi&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Michoacan-Guanajuato&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Miyake-jima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Mombacho&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Myojun Knoll&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Nabro&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Nasu&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Negro, Cerro&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Niigata-Yake-yama&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Niuafo&apos;ou&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Novarupta&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Nyamuragira&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Nyiragongo&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Okataina&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Oku Volc Field&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;On-take&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Oraefajokull&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Oshima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Pacaya&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Paluweh&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Papandayan&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Pelee&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Pico&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Pinatubo&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Popocatepetl&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Purace&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Rabaul&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Raikoke&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Raoul Island&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Raung&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Ruiz&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Sakura-jima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;San Joaquin&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;San Jorge&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;San Salvador&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Sangay&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Santa Maria&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Santorini&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Semeru&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Sinabung&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Sirung&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Sorikmarapi&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Soufriere Hills&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Soufriere St. Vincent&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;St. Helens&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Stromboli&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Taal&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Tair, Jebel at&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Tambora&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Tengger Caldera&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Teon&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Tokachi&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Tori-shima&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Tungurahua&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Unzen&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Usu&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Vestmannaeyjar&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Vesuvius&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Villarrica&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;White Island&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Yasur&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='&quot;Zao&quot;' />
+              <groupfilter function='member' level='[attr:Name:nk]' member='%many-values%' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' direction='DESC' using='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' />
+          <slices>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[attr:Name:nk]</column>
+            <column>[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[Action (Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' palette='red_gold_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]' palette='tableau-map-temperatur' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' value='Name (Desc.)'>
+              <formatted-text>
+                <run>Name (Desc.)</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' value='Volcano Names'>
+              <formatted-text>
+                <run>Volcano Names</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[attr:Name:nk]' value='Volcano Names'>
+              <formatted-text>
+                <run>Volcano Names</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' />
+              <size column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' />
+              <text column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]' />
+              <text column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' />
+              <text column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' />
+              <lod column='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:Volcano Explosivity Index (VEI):qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='8'><![CDATA[<[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='8'><![CDATA[<[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5054431C-41DD-4637-9E8D-D533D7696A50}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Active Volcanoes Around World'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='significantvolcanoeruptions' name='federated.0l3jnp10xcrj0g18af3hv1of8gd9' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0l3jnp10xcrj0g18af3hv1of8gd9'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+        <column caption='Deaths' datatype='integer' name='[DEATHS]' role='measure' type='quantitative' />
+        <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+        <column datatype='integer' name='[Volcano Explosivity Index (VEI)]' role='measure' type='quantitative' />
+        <column datatype='real' name='[Year]' role='dimension' type='quantitative' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+        <column-instance column='[DEATHS]' derivation='None' name='[none:DEATHS:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Volcano Explosivity Index (VEI)]' derivation='None' name='[none:Volcano Explosivity Index (VEI):qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='74115' id='282' param='vert' type-v2='layout-flow' w='99064' x='468' y='884'>
+            <zone h='4641' id='283' type-v2='title' w='99064' x='468' y='884'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='69474' id='183' param='vert' type-v2='layout-flow' w='99064' x='468' y='5525'>
+              <zone h='69474' id='44' param='horz' type-v2='layout-flow' w='99064' x='468' y='5525'>
+                <zone fixed-size='951' h='69474' id='34' is-fixed='true' param='horz' type-v2='layout-flow' w='55614' x='468' y='5525'>
+                  <zone h='69474' id='15' param='vert' type-v2='layout-flow' w='55614' x='468' y='5525'>
+                    <zone h='69474' id='7' param='horz' type-v2='layout-flow' w='55614' x='468' y='5525'>
+                      <zone h='69474' id='5' type-v2='layout-basic' w='55614' x='468' y='5525'>
+                        <zone h='30811' id='3' name='Global Active Archive of all Recorded Volanoes' show-title='false' w='55614' x='468' y='5525'>
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                        <zone h='38663' id='20' name='Deaths per Country' w='55614' x='468' y='36336'>
+                          <layout-cache minheight='153' type-h='scalable' type-w='cell' />
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone h='69474' id='280' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='34093' x='56082' y='5525'>
+                  <zone fixed-size='423' h='68619' id='285' is-fixed='true' name='Volcano Names' w='33626' x='56316' y='5967'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='160' h='69474' id='43' is-fixed='true' param='vert' type-v2='layout-flow' w='9357' x='90175' y='5525'>
+                  <zone h='7624' id='45' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]' show-null-ctrls='false' show-reldate-picker='false' type-v2='filter' values='database' w='9357' x='90175' y='5525'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='7624' id='119' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]' type-v2='filter' values='database' w='9357' x='90175' y='13149'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='7624' id='126' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]' type-v2='filter' values='database' w='9357' x='90175' y='20773'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='52' h='6630' id='133' is-fixed='true' mode='checkdropdown' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]' show-apply='true' type-v2='filter' values='database' w='9357' x='90175' y='28397'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='52' h='6630' id='65' is-fixed='true' mode='checkdropdown' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' show-apply='true' type-v2='filter' values='database' w='9357' x='90175' y='35027'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='33342' id='317' name='Volcano Names' pane-specification-id='0' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' type-v2='color' w='9357' x='90175' y='41657'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='24117' id='18' name='Volanco Occurance over Years in Country' w='99064' x='468' y='74999'>
+            <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='333' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98230' id='332' param='vert' type-v2='layout-flow' w='99064' x='468' y='885'>
+                <zone h='4646' id='283' type-v2='title' w='99064' x='468' y='885'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7633' id='45' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]' show-null-ctrls='false' show-reldate-picker='false' type-v2='filter' values='database' w='9362' x='90170' y='5531'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7633' id='119' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]' type-v2='filter' values='database' w='9362' x='90170' y='13164'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7633' id='126' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]' type-v2='filter' values='database' w='9362' x='90170' y='20797'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='52' h='6637' id='133' mode='checkdropdown' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]' show-apply='true' type-v2='filter' values='database' w='9362' x='90170' y='28430'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='52' h='6637' id='65' mode='checkdropdown' name='Global Active Archive of all Recorded Volanoes' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' show-apply='true' type-v2='filter' values='database' w='9362' x='90170' y='35067'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='239' h='30811' id='3' is-fixed='true' name='Global Active Archive of all Recorded Volanoes' show-title='false' w='55647' x='468' y='5531'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='68585' id='285' is-fixed='true' name='Volcano Names' w='33587' x='56349' y='5973'>
+                  <layout-cache cell-count-w='1' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='33296' id='317' name='Volcano Names' pane-specification-id='0' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' type-v2='color' w='9362' x='90170' y='41704'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38658' id='20' is-fixed='true' name='Deaths per Country' w='55647' x='468' y='36342'>
+                  <layout-cache minheight='153' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='185' h='24115' id='18' is-fixed='true' name='Volanco Occurance over Years in Country' w='99064' x='468' y='75000'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5D61DE07-1BCB-4F6D-A15A-4DDBAF276682}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='30'>
+    <window class='worksheet' name='Global Active Archive of all Recorded Volanoes'>
+      <cards>
+        <edge name='left'>
+          <strip size='202'>
+            <card type='pages' />
+            <card type='marks' />
+            <card type='filters' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='218'>
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' type='filter' values='cascading' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[sum:DEATHS:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' type='color' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{D059F88A-790F-49F2-ACB1-7CDC02DDD4A8}' />
+    </window>
+    <window class='worksheet' name='Volanco Occurance over Years in Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='237'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Type:nk]' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='6' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{40F05A09-0261-46CA-B552-51139D60A4FD}' />
+    </window>
+    <window class='worksheet' name='Deaths per Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:DEATHS:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='3' param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F76BA51D-6897-4397-874F-3A5B5D21EA77}' />
+    </window>
+    <window class='worksheet' name='Volcano Names'>
+      <cards>
+        <edge name='left'>
+          <strip size='280'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Volcano Explosivity Index (VEI):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0l3jnp10xcrj0g18af3hv1of8gd9].[none:Name:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{36701776-50BA-4EA0-B8A3-A54AB0E36B96}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Active Volcanoes Around World' tab-color='#17927d'>
+      <viewpoints>
+        <viewpoint name='Deaths per Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Global Active Archive of all Recorded Volanoes'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Volanco Occurance over Years in Country' />
+        <viewpoint name='Volcano Names'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='317' />
+      <simple-id uuid='{B6C7FEFB-E3A5-406D-9B97-3FBFF2DEFBF5}' />
+    </window>
+  </windows>
+</workbook>
